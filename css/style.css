@@ -1,0 +1,23 @@
+.hero {
+  min-height: calc(100vh - 56px); /* navbar height adjustment */
+  background: #0d1117;
+}
+
+.hero-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+:root {
+  --bg-main: #0d1117;
+  --border-subtle: #30363d;
+  --text-muted-custom: #8b949e;
+}
+.project-color{
+    background: #9aa0a6;
+}
+
+.contact-item svg {
+  color: #8b949e; /* light grey */
+}
